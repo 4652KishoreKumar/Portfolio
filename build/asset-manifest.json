@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.07d05389.js",
+    "static/media/img_side.jpg": "/static/media/img_side.5dd0d57036494d5816e5.jpg",
+    "static/media/02.jpg": "/static/media/02.c64d38921ac4e096cc30.jpg",
+    "static/media/working-emoji.png": "/static/media/working-emoji.c5325f52b5be329995a5.png",
+    "static/media/Kishore_PassportSize.jpeg": "/static/media/Kishore_PassportSize.a38a9dbb31816048699f.jpeg",
+    "index.html": "/index.html",
+    "main.07d05389.js.map": "/static/js/main.07d05389.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.07d05389.js"
+  ]
+}
