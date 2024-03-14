@@ -85,8 +85,11 @@ const HeroText = styled.div`
     width: 6rem;
     @media only screen and (max-width : 903px) {
       text-align: center;
-      right: 6rem;
+      right: 4rem;
       top: 8rem;
+     }
+     @media only screen and (max-width : 606px) {
+        right: 6rem;
      }
   }
   & p {
@@ -167,6 +170,12 @@ const Skills = styled.div`
     left: auto;
     margin-top : 10rem;
 }
+@media (max-width: 602px)
+{
+    
+    bottom: -251px;
+   
+}
 
   & p {
     border-right: 2px solid rgba(45, 46, 50, 0.5);
@@ -189,6 +198,9 @@ const Skills = styled.div`
     flex-wrap: wrap;
     gap: 3rem;
     list-style: none;
+    @media (max-width : 903px){
+      justify-content: center;
+    }
   }
 
   & ul li {
@@ -199,6 +211,7 @@ const Skills = styled.div`
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+    
   }
  ul li:hover{
   top: -10px;

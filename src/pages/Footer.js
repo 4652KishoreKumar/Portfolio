@@ -11,7 +11,13 @@ const StyledFooter = styled.footer`
   & div {
     display: flex;
     justify-content: space-between;
+    @media only screen and (max-width : 425px) {
+    flex-direction : column;
+    align-items: center;
   }
+
+  }
+ 
 `;
 const Icon = styled.div`
   align-items: center;
@@ -19,14 +25,25 @@ const Icon = styled.div`
   gap: 2rem;
   justify-content: center;
   margin-top: 1rem;
+     @media only screen and (max-width : 425px) {
+    flex-direction : row !important;
+    align-items: center;
+    margin-top: 4rem;
+  }
 `;
 const FooterText = styled.h3`
   color: #fff;
   font-size: 1.7rem;
+  @media only screen and (max-width : 425px) {
+    font-size: 1.5rem;
+  }
 `;
 const IconText = styled.a`
   color: #fff;
   font-size: 2.3rem;
+  @media only screen and (max-width : 425px) {
+    
+  }
 `;
 export default function Footer() {
   return (
