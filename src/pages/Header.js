@@ -20,7 +20,8 @@ const StyledHeader = styled.nav`
   & .logo {
     color: #2d2e32;
     cursor: pointer;
-    
+    font-weight: 600;
+    text-decoration: none;
   }
   & ul {
     display: flex;
@@ -33,7 +34,9 @@ const StyledHeader = styled.nav`
     text-decoration: none;
     transition: all 0.23s;
   }
-
+  & ul a:hover{
+    color:#387ADF;
+  }
   & svg {
     cursor: pointer;
     display: none;
@@ -102,7 +105,7 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <StyledHeader>
-      <h3 className="logo">Kishore.dev</h3>
+      <a href="#home"className="logo">Kishore.dev</a>
       <ul>
         <li>
           <a href="#home">Home</a>

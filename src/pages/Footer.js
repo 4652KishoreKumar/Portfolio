@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { githubIcon, linkedInIcon } from "../Constants";
+import { githubIcon, linkedInIcon,githubURL,linkedInURL } from "../Constants";
+
 import { Container } from "../GlobalStyles";
 
 const StyledFooter = styled.footer`
@@ -41,9 +42,10 @@ const FooterText = styled.h3`
 const IconText = styled.a`
   color: #fff;
   font-size: 2.3rem;
-  @media only screen and (max-width : 425px) {
-    
-  }
+  transition: all 3s ease-in-out;
+  :hover {
+     transform: scale(1.2);
+}
 `;
 export default function Footer() {
   return (
@@ -55,7 +57,7 @@ export default function Footer() {
             aria-label="linkedin"
             target="_blank"
             rel="noreferrer"
-            href=""
+            href={linkedInURL}
             alt="linkedinIcon"
           >
             {" "}
@@ -65,7 +67,7 @@ export default function Footer() {
             aria-label="github"
             target="_blank"
             rel="noreferrer"
-            href=""
+            href={githubURL}
             alt="githubIcon"
           >
             {" "}

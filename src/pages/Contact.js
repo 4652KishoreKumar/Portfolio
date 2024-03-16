@@ -18,7 +18,7 @@ const StyledContact = styled.section`
 
 const ContactTitle = styled.div`
   & p {
-    color: #147efb;
+    color: #387ADF;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -76,7 +76,7 @@ const ContactLinkInfo = styled.div`
   }
 
   & a {
-    color: #767676;
+    color:#387ADF;
     cursor: pointer;
     font-size: 1.7rem;
     text-decoration: none;
@@ -114,7 +114,7 @@ export default function Contact() {
                 <h3>Mail</h3>
                 <a
                   href={
-                    "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=" +
+                    "mailto:" +
                     mailAddress
                   }
                 >

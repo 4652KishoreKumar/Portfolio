@@ -23,6 +23,12 @@ const GlobalStyles = createGlobalStyle`
     position: relative;
     min-width: fit-content;
   min-height: fit-content;
+
+  /* 
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+
 }
 
 & html{

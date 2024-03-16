@@ -1,7 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import profilePhoto from "../assets/Kishore_PassportSize.jpeg";
-import profilePhoto2 from "../assets/02.jpg";
 
 import { githubIcon, githubURL, linkedInIcon, linkedInURL } from "../Constants";
 import { Container } from "../GlobalStyles";
@@ -21,7 +20,7 @@ const morph = keyframes`
 `;
 
 const StyledHero = styled.section`
-  background-color: #f9f9f9;
+  background-color:  #f9f9f9;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -66,7 +65,7 @@ const HeroText = styled.div`
   max-width: 50rem;
   position: relative;
   & h1 {
-    color: #2d2e32;
+    color: #387ADF; //#2d2e32;#1b90f7;
     font-size: 5.5rem;
     line-height: 1.2;
     margin-bottom: 2rem;
@@ -88,9 +87,14 @@ const HeroText = styled.div`
       right: 4rem;
       top: 8rem;
      }
-     @media only screen and (max-width : 606px) {
-        right: 6rem;
+     @media only screen and (max-width : 605px) {
+        right: 6rem !important;
+        
      }
+     @media only screen and (max-width : 630px) {
+        right: 2rem;
+     }
+     
   }
   & p {
     color: #555;
@@ -120,6 +124,9 @@ const HeroText = styled.div`
   & span a {
     color: #2d2e32;
     font-size: 3rem;
+  }
+  & span a:hover{
+    color:#387ADF;
   }
 `;
 
@@ -222,7 +229,7 @@ const Skills = styled.div`
 
 export default function Hero() {
   return (
-    <StyledHero id="hero">
+    <StyledHero id="home">
       <Container>
       <HeroContent>
         <HeroMain>

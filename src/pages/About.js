@@ -97,7 +97,7 @@ const TextSide = styled.div`
   padding-right: 1.5rem;
 
   & h3 {
-    color: #147efb;
+    color:#387ADF;// #147efb;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
