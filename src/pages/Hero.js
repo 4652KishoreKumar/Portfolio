@@ -87,12 +87,13 @@ const HeroText = styled.div`
       right: 4rem;
       top: 8rem;
      }
-     @media only screen and (max-width : 605px) {
+     /* @media only screen and (max-width : 605px) {
         right: 6rem !important;
         
-     }
+     } */
      @media only screen and (max-width : 630px) {
-        right: 2rem;
+        /* right: 2rem; */
+        display: none;
      }
      
   }

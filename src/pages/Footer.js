@@ -43,9 +43,9 @@ const IconText = styled.a`
   color: #fff;
   font-size: 2.3rem;
   transition: all 3s ease-in-out;
-  :hover {
+  /* :hover {
      transform: scale(1.2);
-}
+} */
 `;
 export default function Footer() {
   return (
