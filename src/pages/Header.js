@@ -65,7 +65,6 @@ const MobileNav = styled.div`
   transition: all 0.3s ease-in-out;
   width: 100%;
   z-index: 300;
-
   & span {
     cursor: pointer;
     font-size: 3.3rem;
@@ -161,16 +160,16 @@ export default function Header() {
           </span>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={() => setToggleMenu(!toggleMenu)}>Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={() => setToggleMenu(!toggleMenu)}>About</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects"onClick={() => setToggleMenu(!toggleMenu)}>Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact"onClick={() => setToggleMenu(!toggleMenu)}>Contact</a>
             </li>
           </ul>
         </MobileNav>

@@ -79,6 +79,9 @@ export const currentLocation =
   "https://www.google.com/maps/dir//12.9550073,+80.2209766/@12.9550073,80.2209766,13z/data=!4m6!4m5!1m0!1m3!2m2!1d80.2209766!2d12.9550073?entry=ttu";
 
 export const mailAddress = "4652kishoreps@gmail.com";
-export const Project1Demo = "";
+export const HotelHavenDemo = "https://hotel-heaven.vercel.app/";
+export const PizzaPlanetDemo = "https://pizza-planet-beta.vercel.app/";
 export const githubURL = "https://github.com/4652KishoreKumar";
 export const linkedInURL = "https://www.linkedin.com/in/kishore-kumar-p-5021601b3/";
+export const HotelHavenCode = "https://github.com/4652KishoreKumar/HOTEL-HEAVEN";
+export const PizzaPlanetCode = "https://github.com/4652KishoreKumar/Pizza-Planet";

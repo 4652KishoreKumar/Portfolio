@@ -2,13 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import { Container } from "../GlobalStyles";
 import {
+  HotelHavenCode,
+  HotelHavenDemo,
+  PizzaPlanetCode,
+  PizzaPlanetDemo,
   Project1Demo,
   githubIcon,
   githubURL,
   linkedInIcon,
   linkedInURL,
 } from "../Constants";
-import HotelHavenLogo from "../assets/Hotelhaven_Logo.png";
 import HotelHavenPreview from "../assets/Wild-Oasis-Dark.png";
 import PizzaPlanetPreview from "../assets/Pizza-Planet-preview.png";
 const StyledProject = styled.section`
@@ -150,7 +153,7 @@ export default function Project() {
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href={githubURL}
+                  href={HotelHavenCode}
                 >
                   <svg
                     height="32"
@@ -172,7 +175,8 @@ export default function Project() {
                   aria-label="LiveDemo"
                   rel="noreferrer"
                   target="_blank"
-                  href={Project1Demo}
+                  href={HotelHavenDemo}
+                  
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +221,7 @@ export default function Project() {
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href={githubURL}
+                  href={PizzaPlanetCode}
                 >
                   <svg
                     height="32"
@@ -239,7 +243,7 @@ export default function Project() {
                   aria-label="LiveDemo"
                   rel="noreferrer"
                   target="_blank"
-                  href={Project1Demo}
+                  href={PizzaPlanetDemo}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
